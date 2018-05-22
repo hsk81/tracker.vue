@@ -8,14 +8,16 @@
 import Tracker from './components/Tracker.vue'
 
 export default {
-  name: 'App',
-  components: {
+  name: 'App', components: {
     Tracker
   },
   data: function () {
     return {
       message: '[...., ....]'
     };
+  },
+  mounted: function () {
+    window.$APP = this;
   },
   methods: {
     onMouseMove: function (ev) {

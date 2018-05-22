@@ -12,11 +12,8 @@ Number.prototype.pad = function (size) {
   return string;
 }
 
-window.VM = new Vue({
-  mounted: function () {
-    window.APP = App;
-  },
+window.$VM = new Vue({
   render: h => h(App),
 });
 
-window.VM.$mount('#app');
+window.$VM.$mount('#app');
