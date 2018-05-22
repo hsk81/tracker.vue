@@ -1,7 +1,13 @@
-# tracker.vue
+# Vue Tracker
 
-Simple mouse tracker realized with [Vue.js](https://vuejs.org/):
+Simple mouse tracker realized with [Vue.js](https://vuejs.org/).
 
+To install the dependencies:
+```bash
+npm install
+```
+
+To serve the application:
 ```bash
 npm run serve
 ```
